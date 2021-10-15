@@ -3,8 +3,60 @@
   margin: 0;
   box-sizing: border-box; }
 
+section {
+  min-height: 100vh; }
+
+.container {
+  margin: 0 1rem; }
+
 body {
   font-family: "Ubuntu", sans-serif; }
+
+.tabs__content--info {
+  display: flex;
+  justify-content: space-between; }
+
+.tab__card {
+  max-width: 380px;
+  min-height: 80vh;
+  overflow: hidden;
+  box-shadow: 0px 1px 9px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 1px 9px 4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 9px 4px rgba(0, 0, 0, 0.15); }
+  .tab__card--hero {
+    height: 60vh;
+    position: relative; }
+    .tab__card--hero .card-img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+    .tab__card--hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .tab__card--hero-btns {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .tab__card--hero-btns > button:hover {
+        background-color: black;
+        color: white; }
+      .tab__card--hero-btns .card__btn-women {
+        margin-top: 1rem; }
+  .tab__card--info {
+    margin: 0.6rem 1rem; }
+    .tab__card--info .tab__Card-title {
+      border-bottom: 1px solid gray;
+      padding-bottom: 1rem; }
+  .tab__card-details {
+    display: flex;
+    align-items: center; }
+    .tab__card-details .tab__card-detail {
+      font-weight: 300;
+      margin-left: 0.3rem; }
+  .tab__card .tab__card--heroOverlay {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)); }
 
 .hero {
   display: flex;
