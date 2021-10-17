@@ -1,7 +1,19 @@
+.collections {
+  position: relative;
+}
 .collections__items {
   display: flex;
   gap: 1rem;
   &--card {
     min-width: 400px;
   }
+}
+
+.collections__btns {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  // transform: translateY(-150%);
 }
