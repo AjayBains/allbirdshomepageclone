@@ -12,3 +12,18 @@
     color: white;
   }
 }
+.btn__dark {
+  background-color: #212a2f;
+  color: white;
+  border: 2px solid black;
+  &:hover {
+    background-color: white;
+    color: #212a2f;
+  }
+}
+.btn__dark + .btn__women {
+  margin-left: 1.3rem;
+}
+.hidden {
+  display: none;
+}

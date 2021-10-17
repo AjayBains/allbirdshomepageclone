@@ -3,6 +3,7 @@
   height: 90vh;
   width: 100vw;
   position: relative;
+  overflow: hidden;
   &__text {
     position: absolute;
     color: white;

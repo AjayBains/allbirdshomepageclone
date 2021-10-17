@@ -1,3 +1,11 @@
 body {
   font-family: "Ubuntu", sans-serif;
 }
+
+.showcase {
+  // margin-top: 2rem;
+  background-image: url("../images/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

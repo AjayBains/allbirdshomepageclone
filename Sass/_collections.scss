@@ -1,0 +1,7 @@
+.collections__items {
+  display: flex;
+  gap: 1rem;
+  &--card {
+    min-width: 400px;
+  }
+}
