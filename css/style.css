@@ -31,6 +31,9 @@
   justify-content: center;
   cursor: pointer; }
 
+.btn__banner {
+  width: 60% !important; }
+
 * {
   padding: 0;
   margin: 0;
