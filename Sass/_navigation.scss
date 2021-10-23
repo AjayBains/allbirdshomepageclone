@@ -1,0 +1,33 @@
+.navigation {
+  min-height: 3rem;
+}
+.navigation__container {
+  min-height: 3rem;
+}
+.nav__wrapper {
+  min-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__wrapper--left {
+  flex: 1;
+}
+.nav__wrapper--centre {
+  flex: 1;
+}
+.nav__wrapper--right {
+  flex: 1;
+  text-align: end;
+}
+
+.nav__categories {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__categories--right {
+  margin-left: auto;
+}

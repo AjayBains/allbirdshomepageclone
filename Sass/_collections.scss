@@ -2,6 +2,11 @@
   position: relative;
   overflow: hidden;
 }
+
+.collection__headline {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
 .collections__items {
   display: flex;
   gap: 1rem;
@@ -19,4 +24,11 @@
   // align-items: center;
   width: 95%;
   // transform: translateY(-150%);
+}
+
+.nav__icon {
+  width: 100px;
+}
+.nav__icon--right {
+  width: 20px;
 }
