@@ -27,7 +27,16 @@
   justify-content: space-between;
   list-style: none;
 }
-
+.nav__categories--item {
+  cursor: pointer;
+}
 .nav__categories--right {
   margin-left: auto;
+}
+
+.nav__icon {
+  width: 100px;
+}
+.nav__icon--right {
+  width: 20px;
 }
