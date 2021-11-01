@@ -25,6 +25,7 @@
   font-weight: 300;
   font-size: 0.8rem;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .footer__footing {
@@ -53,11 +54,17 @@
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
+  & > i {
+    cursor: pointer;
+  }
 }
 .footer__text {
   font-weight: 300;
   font-size: 0.8rem;
   margin-bottom: 1rem;
+}
+.footer__flag--pic {
+  cursor: pointer;
 }
 .footer__select {
   margin-top: 1rem;
