@@ -198,6 +198,75 @@ body {
   .tab__card .tab__Card-icon {
     width: 30px; }
 
+.footer {
+  background: #212a2f;
+  color: white; }
+
+.footer__container {
+  margin-left: 1.8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.footer__titles {
+  display: flex;
+  gap: 10rem; }
+
+.footer__heading {
+  font-weight: 600;
+  margin-bottom: 1.7rem; }
+
+.footer__list {
+  list-style: none; }
+
+.footer__list--item {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 1rem; }
+
+.footer__footing {
+  margin-top: 5rem;
+  display: flex; }
+
+.footer__box {
+  flex: 1;
+  text-align: center; }
+
+.box--1 {
+  text-align: left; }
+
+.box--3 {
+  flex: 2; }
+
+.footer__flags {
+  display: flex;
+  gap: 2rem; }
+
+.footer__social {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem; }
+
+.footer__text {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 1rem; }
+
+.footer__select {
+  margin-top: 1rem;
+  text-align: left; }
+  .footer__select select {
+    display: block;
+    margin-top: 1.2rem;
+    width: 60%;
+    padding: 1rem 2rem;
+    background-color: #4d5559;
+    color: white;
+    border-bottom: 1px solid white; }
+
+.footer__exit {
+  margin-top: 8rem;
+  text-align: center; }
+
 .hero {
   display: flex;
   height: 90vh;
